@@ -1,0 +1,11 @@
+#Form{
+    width:600px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 1px solid black;
+}
+h2{
+    font-size: 25px;
+    font-family: "Arial Black";
+
+}

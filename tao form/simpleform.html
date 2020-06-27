@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>simple form</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<div id="Form">
+<form method="get" action="simpleform.html">
+    <h2>Order form</h2>
+    <hr>
+    <p style="font-size: 17px; font-family: 'Lucida Sans Unicode' "><b>What would you like to buy?</b></p>
+    <select name="option">
+        <option value="A">Magarita</option>
+        <option value="B">Jaggerbomb</option>
+        <option value="C">Whiskey Sour</option>
+    </select>
+    <p style="font-size: 17px; font-family: 'Lucida Sans Unicode' "><b>How many would you like to order?</b></p>
+    <label><input name="Soluong" value="1" type="radio" checked/>1 -$10</label><br>
+    <label><input name="Soluong" value="2" type="radio"/>2 - $20</label><br>
+    <label><input name="Soluong" value="3" type="radio"/>3 - $25</label>
+    <p><span style="font-size: 17px; font-family: 'Lucida Sans Unicode' "><b>Name</b></span><span style="color: red">*</span></p>
+    <input type="text" name="firstname" placeholder="First name" size="15"/>
+    <input type="text" name="lastname" placeholder="Last name" size="15"/>
+    <p style="font-size: 17px; font-family: 'Lucida Sans Unicode' "><b>Email</b></p>
+    <input type="text" name="email" size="35"/>
+    <p style="font-size: 17px; font-family: 'Lucida Sans Unicode' "><b>Phone number</b></p>
+    <input type="text" name="phone1" size="5"/>-
+    <input type="text" name="phone2" size="5"/>-
+    <input type="text" name="phone3" size="5"/>
+    <p><input type="button" name="btSubmit" value="Submit"/></p>
+
+</form>
+</div>
+</body>
+</html>
