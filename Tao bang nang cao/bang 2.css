@@ -1,0 +1,34 @@
+h2{
+    text-align: center;
+}
+.lich{
+    width: 800px;
+    margin-left: 350px;
+    margin-top: 20px;
+}
+.schedule{
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-left: 155px;
+}
+.schedule th{
+    width: 70px;
+    height: 40px;
+    text-align: center;
+}
+.schedule td{
+    width: 70px;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+}
+.lich1{
+    background-color: #fec107;
+    color: white;
+    border: 1px solid white;
+}
+.lich3 , .lich3 td{
+    border: 2px solid gainsboro;
+    font-weight: bold;
+}
