@@ -50,3 +50,10 @@ body{
     width: 15px;
     height: 15px;
 }
+.form-wrap .thongtin .container{
+    margin-bottom: 15px;
+    margin-left: 150px;
+}
+.form-wrap .thongtin.column{
+margin-bottom: 15px;
+}

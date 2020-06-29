@@ -1,0 +1,25 @@
+.title{
+    border-bottom: 1px solid black;
+    border-bottom-style: dashed ;
+}
+.form .input_field label{
+    font-weight: bold;
+}
+.form .input_field{
+    margin-bottom: 15px;
+}
+.form .input_field select {
+    box-sizing: border-box;
+    margin: 0px 0px 1px;
+    padding: 1px 0 0 ;
+    align-items: center;
+    width: 400px;
+}
+.size{
+    width: 300px;
+    height: 35px;
+}
+.size1{
+    width: 400px;
+    height: 35px;
+}
